@@ -21,7 +21,7 @@ jobs:
         java-version: '8'
 
     - name: Build with Maven
-      run: mvn package
+      run: mvn package nrcrbackend/pom.xml clean verify
 
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v1
