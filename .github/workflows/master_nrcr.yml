@@ -28,4 +28,4 @@ jobs:
       with:
         app-name: 'nrcr'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_5139bd1f75c948ca880e4d2fccd735f7 }
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_5139bd1f75c948ca880e4d2fccd735f7 }}
